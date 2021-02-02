@@ -28,7 +28,7 @@ export default function Menu() {
         <img src={Logo} alt="" id="logoMenu" />
       </div>
       <div id="container">
-        <form action="" method="post">
+        <div>
           <div id="searchDiv">
             <input
               type="text"
@@ -47,8 +47,10 @@ export default function Menu() {
               </label>
             </Link>
           </div>
-        </form>
-        <Link to="/cadastro" id="cadastro">Cadastro</Link>
+        </div>
+        <Link to="/cadastro" id="cadastro">
+          Cadastro
+        </Link>
         <Link to="/login" id="login">
           Login
         </Link>
