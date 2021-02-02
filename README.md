@@ -6,15 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 execute o comando 'npm install` para instalar as dependecias necessarias para o projeto
 
-# Executando Migrações
-
-Para executar as migrações, utilize o comando 'knex migrate:latest'
-
 # Iniciando o projeto
 
 Agora é só executar 'npm start'
 
----Caso prefira Clonar o Repositorio
+# -----------------Clonando o repositório-----------------------------
 
 # Clonando o repositorio 
 $ git clone https://github.com/DuduRosa/desafio-plathanus-frontend.git
