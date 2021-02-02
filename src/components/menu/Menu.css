@@ -1,0 +1,105 @@
+#menuBar {
+  width: 100vw;
+  height: 60px;
+  position: fixed;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background-image: linear-gradient(90deg, #00bcff, #8f14d2);
+}
+
+#logo {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#logoMenu {
+  width: 40%;
+  max-width: 80%;
+}
+
+#container {
+  width: 30%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding-right: 5%;
+}
+
+#login {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  border-bottom: solid 2px white;
+
+  transition: 300ms;
+}
+
+#login:hover {
+  color: rgb(216, 216, 216);
+  border-bottom: solid 2px rgb(216, 216, 216);
+}
+
+#cadastro {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  border-bottom: solid 2px white;
+
+  transition: 300ms;
+}
+
+#cadastro:hover {
+  color: rgb(216, 216, 216);
+  border-bottom: solid 2px rgb(216, 216, 216);
+}
+
+#search {
+  width: 100%;
+  height: 50%;
+
+  border: none;
+  outline: none;
+}
+
+#searchDiv {
+  width: 100%;
+  height: 90%;
+  background-color: white;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px;
+  padding-left: 2%;
+}
+
+/*focus-whitin verifica se algum filho da div está com focus e se estiver dispara a ação*/
+#searchDiv:focus-within {
+  width: 100%;
+  transition: 300ms;
+}
+
+/*not(focus-within) verifica se os filhos da div nao estão com focus e se não estiverem 
+ativado ele retorna para a posição inicial com transiçao disparando a ação*/
+#searchDiv:not(focus-within) {
+  width: 30%;
+  transition: 300ms;
+}
+
+#botaoPesquisa{
+  width: 100%;
+  height: 100%;
+}

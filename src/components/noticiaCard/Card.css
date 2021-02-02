@@ -1,0 +1,62 @@
+#cardView {
+  margin: 0;
+  width: 60vw;
+  max-height: 200px;
+  height: 200px;
+  background-color: var(--bgcolor);
+
+  display: grid;
+  grid-template-columns: 300px auto;
+  column-gap: 10px;
+
+  justify-content: left;
+  align-items: center;
+
+  border-width: 10px;
+  border-top: 1px solid var(--border-color);
+}
+
+#cardContent {
+  width: auto;
+  height: 180px;
+  display: grid;
+
+  grid-template-rows: 10% 45% auto;
+  row-gap: 10px;
+}
+
+#cardContent a h3 {
+  font-size: 20px;
+}
+
+#cardContent a {
+  text-decoration: none;
+  color: rgb(61, 61, 61);
+
+  transition: 200ms;
+}
+
+#cardContent a:hover {
+  color: rgb(0, 0, 0);
+}
+
+#cardContent h4 {
+  font-size: 14px;
+  color: rgb(119, 107, 107);
+}
+
+#cardContent text {
+  font-size: 10px;
+}
+
+#cardImg img {
+  width: auto;
+  max-width: 300px;
+  height: 200px;
+  object-fit: contain;
+}
+
+#previa{
+  max-width: 100%;
+  max-height: 100%;
+}
