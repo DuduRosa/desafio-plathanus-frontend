@@ -16,7 +16,7 @@ Agora é só executar 'npm start'
 $ git clone https://github.com/DuduRosa/desafio-plathanus-frontend.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd desafio-plathanus-frontend-master
+$ cd desafio-plathanus-frontend
 
 # Instale as dependências
 $ yarn install
